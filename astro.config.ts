@@ -13,7 +13,8 @@ import { SITE } from "./src/config";
 
 // https://astro.build/config001
 export default defineConfig({
-  site: SITE.website,
+  site: 'https://tangbinqiang.github.io',
+  base: '/AstroDemo',
   integrations: [
     sitemap({
       filter: page => SITE.showArchives || !page.endsWith("/archives"),
