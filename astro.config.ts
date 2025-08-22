@@ -11,7 +11,7 @@ import {
 import { transformerFileName } from "./src/utils/transformers/fileName";
 import { SITE } from "./src/config";
 
-// https://astro.build/config
+// https://astro.build/config001
 export default defineConfig({
   site: SITE.website,
   integrations: [
